@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-screener_checklist/master/activities/screener_checklist/screener_checklist_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "screener_checklist_schema",
+    "skos:prefLabel": "Screener Checklist",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "checklist_title",
+                "isAbout": "checklist_title",
+                "isVis": true
+            },
+            {
+                "variableName": "checklist_b",
+                "isAbout": "checklist_b",
+                "isVis": true
+            },
+            {
+                "variableName": "checklist_end",
+                "isAbout": "checklist_end",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "checklist_title",
+            "checklist_b",
+            "checklist_end"
+        ],
+        "shuffle": false
+    }
+}
